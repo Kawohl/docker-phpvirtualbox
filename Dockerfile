@@ -33,5 +33,5 @@ CMD php /servers-from-env.php && \
   supervisord -c /etc/supervisor/conf.d/supervisord.conf
 
 # expose only nginx HTTP port
-EXPOSE 80
+EXPOSE 8080
 
